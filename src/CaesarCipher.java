@@ -11,8 +11,8 @@ public class CaesarCipher {
     private int shift;
 
     //constructor
-    public CaesarCipher(int s) {
-        this.shift = s;
+    public CaesarCipher(int shift) {
+        this.shift = shift;
     }
 
     //This method will take in a String message to be encrypted and returns the encrypted message as a String
